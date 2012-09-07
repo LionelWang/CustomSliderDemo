@@ -13,6 +13,12 @@
 		EF9AB97E15F6EEC3002A5FEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF9AB97C15F6EEC3002A5FEB /* InfoPlist.strings */; };
 		EF9AB98015F6EEC3002A5FEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9AB97F15F6EEC3002A5FEB /* main.m */; };
 		EF9AB98415F6EEC3002A5FEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9AB98315F6EEC3002A5FEB /* AppDelegate.m */; };
+		EF9AB98B15F6EED8002A5FEB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF9AB98A15F6EED8002A5FEB /* MainWindow.xib */; };
+		EF9AB98F15F6EF4B002A5FEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9AB98D15F6EF4B002A5FEB /* ViewController.m */; };
+		EF9AB99015F6EF4B002A5FEB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF9AB98E15F6EF4B002A5FEB /* ViewController.xib */; };
+		EF9AB99315F6F09C002A5FEB /* CustomSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9AB99215F6F09C002A5FEB /* CustomSlider.m */; };
+		EF9AB99A15F6F208002A5FEB /* slideBg.png in Resources */ = {isa = PBXBuildFile; fileRef = EF9AB99815F6F208002A5FEB /* slideBg.png */; };
+		EF9AB99B15F6F208002A5FEB /* slideThumb.png in Resources */ = {isa = PBXBuildFile; fileRef = EF9AB99915F6F208002A5FEB /* slideThumb.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,14 @@
 		EF9AB98115F6EEC3002A5FEB /* CustomSliderDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomSliderDemo-Prefix.pch"; sourceTree = "<group>"; };
 		EF9AB98215F6EEC3002A5FEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EF9AB98315F6EEC3002A5FEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF9AB98A15F6EED8002A5FEB /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		EF9AB98C15F6EF4B002A5FEB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF9AB98D15F6EF4B002A5FEB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF9AB98E15F6EF4B002A5FEB /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		EF9AB99115F6F09C002A5FEB /* CustomSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSlider.h; sourceTree = "<group>"; };
+		EF9AB99215F6F09C002A5FEB /* CustomSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSlider.m; sourceTree = "<group>"; };
+		EF9AB99815F6F208002A5FEB /* slideBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slideBg.png; sourceTree = "<group>"; };
+		EF9AB99915F6F208002A5FEB /* slideThumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slideThumb.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +86,16 @@
 		EF9AB97915F6EEC3002A5FEB /* CustomSliderDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EF9AB99815F6F208002A5FEB /* slideBg.png */,
+				EF9AB99915F6F208002A5FEB /* slideThumb.png */,
 				EF9AB98215F6EEC3002A5FEB /* AppDelegate.h */,
 				EF9AB98315F6EEC3002A5FEB /* AppDelegate.m */,
+				EF9AB98C15F6EF4B002A5FEB /* ViewController.h */,
+				EF9AB98D15F6EF4B002A5FEB /* ViewController.m */,
+				EF9AB98E15F6EF4B002A5FEB /* ViewController.xib */,
+				EF9AB98A15F6EED8002A5FEB /* MainWindow.xib */,
+				EF9AB99115F6F09C002A5FEB /* CustomSlider.h */,
+				EF9AB99215F6F09C002A5FEB /* CustomSlider.m */,
 				EF9AB97A15F6EEC3002A5FEB /* Supporting Files */,
 			);
 			path = CustomSliderDemo;
@@ -142,6 +164,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF9AB97E15F6EEC3002A5FEB /* InfoPlist.strings in Resources */,
+				EF9AB98B15F6EED8002A5FEB /* MainWindow.xib in Resources */,
+				EF9AB99015F6EF4B002A5FEB /* ViewController.xib in Resources */,
+				EF9AB99A15F6F208002A5FEB /* slideBg.png in Resources */,
+				EF9AB99B15F6F208002A5FEB /* slideThumb.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +180,8 @@
 			files = (
 				EF9AB98015F6EEC3002A5FEB /* main.m in Sources */,
 				EF9AB98415F6EEC3002A5FEB /* AppDelegate.m in Sources */,
+				EF9AB98F15F6EF4B002A5FEB /* ViewController.m in Sources */,
+				EF9AB99315F6F09C002A5FEB /* CustomSlider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +256,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CustomSliderDemo/CustomSliderDemo-Prefix.pch";
 				INFOPLIST_FILE = "CustomSliderDemo/CustomSliderDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -239,6 +268,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CustomSliderDemo/CustomSliderDemo-Prefix.pch";
 				INFOPLIST_FILE = "CustomSliderDemo/CustomSliderDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
